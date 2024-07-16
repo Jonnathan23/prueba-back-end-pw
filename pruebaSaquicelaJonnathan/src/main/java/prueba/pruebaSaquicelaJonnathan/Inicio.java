@@ -31,15 +31,14 @@ public class Inicio {
 		deuda2.setDeu_consumo(55.78);
 		deuda2.setDeu_deuda(49.68);
 		
-		deuda1.setDeu_cedula("0125874963");
-		deuda1.setDeu_nombre("Jessica Pearson");
-		deuda1.setDeu_consumo(24.58);
-		deuda1.setDeu_deuda(19.80);
+		deuda3.setDeu_cedula("0125874963");
+		deuda3.setDeu_nombre("Jessica Pearson");
+		deuda3.setDeu_consumo(24.58);
+		deuda3.setDeu_deuda(19.80);
 		
 		this.deudaDao.crear(deuda1);
 		this.deudaDao.crear(deuda2);
-		this.deudaDao.crear(deuda3);
-		
+		this.deudaDao.crear(deuda3);	
 		
 		
 		

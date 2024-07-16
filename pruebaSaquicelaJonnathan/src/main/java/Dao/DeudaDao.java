@@ -20,6 +20,7 @@ public class DeudaDao {
 			
 		} catch (Exception e) {
 			// TODO: handle exception
+			System.out.println("Fallo al insertar");
 			System.out.println(e);
 		}
 	}
